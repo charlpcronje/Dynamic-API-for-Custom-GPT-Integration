@@ -8,6 +8,6 @@ services:
         GIT_NAME: Charl Cronje
         GIT_EMAIL: charlcp@gmail.com
     ports:
-      - "8000:8000"
+      - "6024:6024"
     volumes:
       - ./scripts:/app/scripts
